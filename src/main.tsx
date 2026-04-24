@@ -1,15 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router";
-import App from './App.tsx';
-import contact from "./components/contact/Contact.tsx";
-import Hijo from "./components/hijo/Hijo.tsx";
 
+import App from "./App.tsx";
+import Contact from "./components/contact/Contact";
+import Hijo from "./components/hijo/Hijo.tsx";
+import './index.css'
 
 const rutas = createBrowserRouter([
   {
-  path: "/",
+    path: "/",
     Component: App,
     children: [
       { path: "/contact", Component: Contact },
@@ -19,8 +19,7 @@ const rutas = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById("root")!).render(
-
   <StrictMode>
-   <RouterProvider router={rutas} />
+    <RouterProvider router={rutas} />
   </StrictMode>,
 );

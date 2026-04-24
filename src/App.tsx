@@ -1,9 +1,7 @@
-import { useState } from 'react';
-import Form from './components/forms/Form';
+
 import Foto from './components/foto';
 import Header from './components/Header';
 import Bio from './components/Bio'; // Importamos el nuevo componente
-import Hermano from "./components/Hermano";
 import { Link, Outlet } from "react-router";
 
 
