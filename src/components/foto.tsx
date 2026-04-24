@@ -11,7 +11,7 @@ function Foto() {
           width: '150px',       // Ajusta el ancho
           height: '150px',      // Ajusta el alto (igual al ancho para que sea un círculo perfecto)
           objectFit: 'cover',   // Asegura que la imagen no se estire feo
-          border: '4px solid #646cff' // Un borde opcional para que resalte
+          border: '4px solid #6ac2df' // Un borde opcional para que resalte
         }} 
       />
     </div>
